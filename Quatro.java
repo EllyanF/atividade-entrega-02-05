@@ -7,6 +7,7 @@ public class Quatro {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite um número:");
         int num = input.nextInt();
+        System.out.printf("Os números ímpares até %d são:\n", num);
         for (int i = 1; i < num; i++) {
             if (verificaImpar(i)) {
                 System.out.println(i);
