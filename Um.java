@@ -16,6 +16,7 @@ public class Um {
         
         if (matricula < 0) {
             System.out.println("Matrícula inválida. Fim do programa");
+            System.exit(0);
         }
 
         for (int i = 1; i < 4; i++) {
